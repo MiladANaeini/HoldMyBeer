@@ -1,13 +1,15 @@
 
+import { BrowserRouter } from 'react-router-dom'
 import './index.css'
+import Layout from './layout/Layout'
 
 function App() {
 
   return (
     <>
-        <h1 className="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+       <BrowserRouter>
+          <Layout />
+        </BrowserRouter>
     </>
   )
 }
