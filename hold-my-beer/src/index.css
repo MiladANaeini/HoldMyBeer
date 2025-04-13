@@ -35,3 +35,28 @@ body {
   border: #2b77e7;
   box-shadow: 10px 10px 5px rgba(4, 128, 170, 0.434);
 }
+
+.section-cards {
+  background: #147c2d;
+  position: relative;
+  border-radius: 7px;
+  border: 1px solid black;
+  box-shadow: 10px 10px 5px rgba(4, 128, 170, 0.434);
+  color: wheat;
+  font-weight: 800;
+  cursor: pointer;
+  width: 11rem;
+  height: 11rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.section-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
